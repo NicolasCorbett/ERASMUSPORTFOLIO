@@ -5,9 +5,206 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+p{
+  color: #ef5959;
+  font-family: "cabazon", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+a{
+  color: #ef5959;
+  font-family: "cabazon", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14pt;
+  transition: ease 0.5s;
+}
+
+h1{
+  color: #ef5959;
+  font-family: "cabazon", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 130pt;
+  margin: -17px 10px;
+}
+
+#corbett{
+  display: inline-block;
+}
+
+h1:not(:first-child){
+  
+  margin: -60px 10px;
+}
+
+.diss{
+  transition: ease-in-out 1s;
+}
+
+.diss:hover{
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+}
+
+h2{
+  color: #ef5959;
+  font-family: "cabazon", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14pt;
+  margin: 2px 5px;
+}
+
+a:hover{
+  text-decoration: underline;
+  transition: ease 0.5s;
+}
+
+nav{
+  width: 40%;
+  margin: 6% 1%;
+}
+.navlink{
+  font-size: 26pt;
+  display: block;
+  transition: ease-in-out 0.1s;
+}
+
+.navlink:hover{
+  text-decoration: none;
+  color: #399688;
+  transition: ease-in-out 0.2s;
+}
+
+.maincontainer{
+  margin: 2% auto;
+  width: 1100px;
+  height: 610px;
+ border: #ef5959 3px solid;
+ display: flex;
+ flex-direction: column;
+}
+
+
+.firstrow{
+  display: flex;
+  flex-direction: row;
+  height: 4.5%;
+}
+
+
+.r1{
+  border-bottom: 3px solid #ef5959;
+  border-right: 3px solid #ef5959;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.scndrow{
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+}
+
+.r2{
+  height: 100%;
+  border-bottom: 3px solid #ef5959;
+  border-right: 3px solid #ef5959;
+}
+
+.thrdrow{
+  display: flex;
+  flex-direction: row;
+  height: 55.5%;
+}
+
+.r3{
+  height: 100%;
+  border-bottom: none;
+  border-right: 3px solid #ef5959;
+}
+
+.r3bis1{
+  height: 91%;
+  width: 100%;
+  border-bottom: #ef5959 3px solid;
+}
+
+.r4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.r4>a{
+  margin: 2px 5px;
+}
+
+.c1{
+  width: 1.7%;
+}
+
+.c2{
+  width: 44%;
+}
+
+.c3{
+  width: 53%;
+}
+
+#linkedin{
+  margin-right: 5px;
+}
+
+.c4{
+  width: 1.8%;
+  border-right: none;
+}
+
+.bg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  transform: translate(-50%, -53%);
+  width: 1000px;
+  height: 500px;
+  background-image: url(./assets/papertry2.jpg);
+  background-size: cover;
+  background-position: left bottom;
+}
+
+/*
+
+red ef5959
+
+green 399688
+
+font-family: "old-standard", serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "old-standard", serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: "old-standard", serif;
+font-weight: 700;
+font-style: normal;
+
+*/
